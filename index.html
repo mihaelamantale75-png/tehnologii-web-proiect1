@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiect 1 - Tehnologii Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-wrapper">
+        <header>
+            <h1>Filtrare Numere Pare</h1>
+            <p>Autori: Mantale Laura & Bahnareanu Andreea</p>
+        </header>
+
+        <main>
+            <section class="card">
+                <label for="numereInput">Introduceți numere (separate prin spațiu):</label>
+                <input type="text" id="numereInput" placeholder="Ex: 1 10 15 20">
+                <button id="btnFiltreaza">Procesează Manual</button>
+                <div class="result-box">
+                    <strong>Rezultat:</strong> <span id="rezultatManual">-</span>
+                </div>
+            </section>
+
+            <section class="card json-section">
+                <h3>Provocarea JSON</h3>
+                <button id="btnIncarcaJSON">Filtrează din date.json</button>
+                <div class="result-box">
+                    <strong>Rezultat JSON:</strong> <span id="rezultatJSON">-</span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
