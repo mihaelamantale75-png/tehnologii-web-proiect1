@@ -49,8 +49,8 @@ button {
 }
 
 button:hover {
-    transform: translateY(-2px);
-    background-color: #1d4ed8;
+    transform: translateY(-4px);
+    background-color: #1d4ed9;
 }
 
 .result-box {
